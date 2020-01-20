@@ -1,0 +1,33 @@
+<app-header></app-header>
+
+<div class="row">
+  
+      <div class="col-md-8">
+        <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">List Name</th>
+                <th scope="col">No of Entities</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr appHover *ngFor="let data of mainObject | search: searchText"> 
+                <td>{{data.date}}</td>
+                <td>{{data.listName}}</td>
+                <td>{{data.entities.length}}</td>
+                <td>
+                    <button type="button" class="btn btn-light" (click)="view(data.entities)">View Details</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+      <div class="col-md-3">
+        <app-details></app-details>
+      </div>
+      
+</div>
+
