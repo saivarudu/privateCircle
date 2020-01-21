@@ -10,7 +10,7 @@ export class HoverDirective {
       this.renderer.setStyle(this.elementRef.nativeElement, 'background-color', 'white');
     }
     @HostListener('mouseover') onMouseOver() {
-      this.renderer.setStyle(this.elementRef.nativeElement, 'background-color', 'gray');
+      this.renderer.setStyle(this.elementRef.nativeElement, 'background-color', 'lightgray');
     }
     @HostListener('mouseout') onMouseOut() {
       this.renderer.setStyle(this.elementRef.nativeElement, 'background-color', 'white');

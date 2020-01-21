@@ -1,16 +1,31 @@
 .headerMain{
-    background-color: #6c757d;
-    padding: 20px;
+    background-color: lightgray;
+    padding: 10px;
     .inlineHeader{
         display: block;
         margin: 0px;
         button{
             margin-right: 20px;
-            width: 20%;
+            height: 50px;
+            width: 15%;
             display: inline-block;
         }
+        .btn-primary{
+            background-color: darkblue;
+            border-color: darkblue;
+        }
+        .btn-secondary{
+            font-weight: 600;
+            color: black;
+            background-color: lightgray;
+            border-color: lightgray;
+        }
+
         input.searchModal{
-            width: 30%;
+            height: 40px;
+            width: 35%;
+            padding: 15px;
+            margin-top: 0.6%;
             float: right;
         }
     }

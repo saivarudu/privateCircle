@@ -1,61 +1,53 @@
 [{
-    "date": "1st June",
-    "listName": "C1",
-    "entities": ["Entity1","Entity2","Entity3","Entity4","Entity5","Entity6","Entity7","Entity8"]
-},{
-    "date": "3rd June",
-    "listName": "C2",
-    "entities": ["Entity1","Entity2","Entity3","Entity4","Entity5","Entity6","Entity7","Entity8","Entity9","Entity12","Entity13","Entity14","Entity15","Entity26","Entity37","Entity58"]
-},{
-    "date": "17th July",
-    "listName": "C3",
-    "entities": ["Entity3","Entity12"]
-},{
-    "date": "5th August",
-    "listName": "C4",
-    "entities": ["Entity3","Entity2","Entity8"]
-},{
-    "date": "11th September",
-    "listName": "C5",
+    "date": "",
+    "listName": "Competitive Intelligence",
     "entities": []
 },{
-    "date": "11th November",
-    "listName": "C6",
-    "entities": ["Entity3","Entity33","Entity32","Entity53","Entity1","Entity2","Entity39","Entity4","Entity5","Entity6","Entity7"]
-},{
-    "date": "3rd November",
-    "listName": "C7",
-    "entities": ["Entity1","Entity2","Entity3","Entity4","Entity5","Entity6","Entity7","Entity8"]
-},{
-    "date": "17th November",
-    "listName": "C8",
-    "entities": ["Entity2","Entity22"]
-},{
-    "date": "5th December",
-    "listName": "C9",
-    "entities": ["Entity1","Entity2","Entity3","Entity4","Entity5","Entity6","Entity7","Entity8","Entity9","Entity12","Entity13","Entity14","Entity15","Entity26","Entity37","Entity58"]
-},{
-    "date": "1st June",
-    "listName": "C10",
-    "entities": ["Entity3","Entity12"]
-},{
-    "date": "3rd June",
-    "listName": "C12",
-    "entities": ["Entity3","Entity33","Entity32","Entity53","Entity1","Entity2","Entity39","Entity4","Entity5","Entity6","Entity7"]
-},{
-    "date": "17th July",
-    "listName": "C13",
-    "entities": ["Entity6","Entity7"]
-},{
-    "date": "5th August",
-    "listName": "C14",
-    "entities": ["Entity3","Entity33","Entity32","Entity53"]
-},{
-    "date": "11th September",
-    "listName": "C15",
+    "date": "",
+    "listName": "My Vendors",
     "entities": []
 },{
-    "date": "11th November",
-    "listName": "C16",
-    "entities": ["Entity3","Entity33","Entity32","Entity53","Entity1","Entity2","Entity39","Entity4","Entity5","Entity6","Entity7"]
+    "date": "",
+    "listName": "My Customers",
+    "entities": []
+},{
+    "date": "July 1",
+    "listName": "Test 30 Results",
+    "entities": ["Infosys","Think and Learn ","Cognizant","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers","Puma Sports India Limited"]
+},{
+    "date": "June 3",
+    "listName": "To Index",
+    "entities": ["Infosys","Think and Learn ","Cognizant","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers","Puma Sports India Limited","Hector Beverages Limited","Infosys2","Infosys3","Infosys4","Infosys5","Think and Learn 6","Cognizant7","TCS 8"]
+},{
+    "date": "July 17",
+    "listName": "Custom",
+    "entities": ["Cognizant","Infosys2"]
+},{
+    "date": "August 5",
+    "listName": "Mumbai",
+    "entities": ["Cognizant","Think and Learn ","Puma Sports India Limited"]
+},{
+    "date": "November 11",
+    "listName": "Two Companies",
+    "entities": ["Cognizant","Cognizant3","Cognizant2","TCS 3","Infosys","Think and Learn ","Cognizant9","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers"]
+},{
+    "date": "July 1",
+    "listName": "Test 30 Results",
+    "entities": ["Infosys","Think and Learn ","Cognizant","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers","Puma Sports India Limited"]
+},{
+    "date": "June 3",
+    "listName": "To Index",
+    "entities": ["Infosys","Think and Learn ","Cognizant","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers","Puma Sports India Limited","Hector Beverages Limited","Infosys2","Infosys3","Infosys4","Infosys5","Think and Learn 6","Cognizant7","TCS 8"]
+},{
+    "date": "July 17",
+    "listName": "Custom",
+    "entities": ["Cognizant","Infosys2"]
+},{
+    "date": "August 5",
+    "listName": "Mumbai",
+    "entities": ["Cognizant","Think and Learn ","Puma Sports India Limited"]
+},{
+    "date": "November 11",
+    "listName": "Two Companies",
+    "entities": ["Cognizant","Cognizant3","Cognizant2","TCS 3","Infosys","Think and Learn ","Cognizant9","Aricent Private Technologies","TCS ","Vodafone Idea Limited","Balaji Wafers"]
 }]

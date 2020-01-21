@@ -4,21 +4,28 @@
   
       <div class="col-md-8">
         <table class="table">
-            <thead class="thead-light">
+            <thead class="thead">
               <tr>
-                <th scope="col">Date</th>
-                <th scope="col">List Name</th>
-                <th scope="col">No of Entities</th>
-                <th scope="col">Actions</th>
+                <th class="date">Date</th>
+                <th>List Name</th>
+                <th>No of Entities</th>
+                <th>Actions</th>
               </tr>
             </thead>
             <tbody>
               <tr appHover *ngFor="let data of mainObject | search: searchText"> 
-                <td>{{data.date}}</td>
-                <td>{{data.listName}}</td>
-                <td>{{data.entities.length}}</td>
+                <td class="date" *ngIf="data.date!==''">{{data.date}}</td>
+                <td class="date" *ngIf="data.date==''">
+                    <img src="../../assets/images/ring.svg" width="15" height="15">
+                </td>
+                <td [ngClass]="{'dateEmpty':data.date==''}">{{data.listName}}</td>
+                <td class="entity"><span>{{data.entities.length}}</span></td>
                 <td>
-                    <button type="button" class="btn btn-light" (click)="view(data.entities)">View Details</button>
+                  <img class="action" src="../../assets/images/mail.svg" width="15" height="15">
+                  <img class="action" *ngIf="data.date!==''" src="../../assets/images/share.svg" width="15" height="15">
+                  <img class="action" *ngIf="data.date!==''" src="../../assets/images/edit.svg" width="15" height="15">
+                  <img class="action" *ngIf="data.date!==''" src="../../assets/images/bin.svg" width="15" height="15">
+                  <button type="button" class="btn btn-light" (click)="view(data.entities)">Details</button>
                 </td>
               </tr>
             </tbody>

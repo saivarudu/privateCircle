@@ -1,11 +1,16 @@
 .infoBlock{
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid;
+    margin-top: 6%;
+    background-color: lightgray;
+    padding: 19px;
+    span{
+        color: darkblue;
+        font-weight: 600;
+        cursor: pointer;
+    }
 }
 
 .detailText{
-    text-align: center;
-    font-size: 20px;
-    color: rgb(10, 10, 75);
+    text-align: left;
+    color: darkblue;
+    padding-top: 10px;
 }

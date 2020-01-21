@@ -1,7 +1,7 @@
 
 table{
+    table-layout:fixed;
     overflow: hidden;
-    font-size: 20px;
 }
 
 .col-md-8{
@@ -10,7 +10,7 @@ table{
     overflow-y: auto;
 }
 .col-md-3{
-    margin-left: 6%;
+    margin: auto;
     height: 700px;
     overflow-y: auto;
 }
@@ -18,4 +18,34 @@ tbody{
     tr{
         cursor: pointer;
     }
+}
+thead{
+    color: darkgrey;
+}
+td{
+    font-weight: 500;
+}
+th.date{
+    padding-left: 8%;
+}
+td.date{
+    padding-left: 9%;
+    color: darkgray;
+    font-weight: 500;
+    font-size: small;
+}
+td.entity{
+    span{
+        float: right;
+        padding-right: 32%;
+    }
+}
+td.dateEmpty{
+    color: darkturquoise;
+}
+img.action{
+    margin-right: 15px;
+}
+button.btn-light{
+    float: right;
 }
